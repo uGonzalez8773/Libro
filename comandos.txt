@@ -1,0 +1,15 @@
+git init
+git status
+git add indice.txt
+git status
+git commit -m "Añadido indice del libro"
+git status
+git diff
+git add indice.txt
+git commit -m "Añadadido capitulo 3 sobre gestion de ramas"
+mkdir capitulos
+cd capitulos/
+touch capitulo1.txt
+git add .
+git commit -m "Añadido capitulo 1"
+git status
